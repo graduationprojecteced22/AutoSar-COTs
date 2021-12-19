@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.dart": "dart",
+        "stm32f103c8.h": "c",
+        "std_types.h": "c"
+    }
+}
