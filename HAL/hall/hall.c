@@ -6,20 +6,6 @@
 #include "hall.h"
 #include "hall_private.h"
 #include "hall_config.h"
-#define wheelRaduis 1
-#define CAR_MOVING 1
-#define CAR_NOT_MOVING 2
-#define CAR_SPEED_EXCEPTION 3
-
-typedef struct
-{
-    u8 statusCode;
-    u8 speedPerKm;
-    u32 RPM;
-} SpeedData;
-
-void HALL_GetSpeed(SpeedData *ptr_SpeedData);
-void HALL_Init();
 
 u32 oldCounter = 0x0;
 u8 rps = 4;
