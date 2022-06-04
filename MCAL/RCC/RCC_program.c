@@ -119,9 +119,6 @@ void RCC_voidInitSysClock(void)
         CLR_BIT(RCC->CFGR, 17); // Clears value of Bit 17 of RCC_CFGR to dissable HSE divider for PLL entry.
         break;
     }
-
-    break;
-}
 #endif
     /* CLOCKS PRESCALARs */
     RCC->CFGR |= ((RCC_AHB_PRESCALAR_DIV << 4) | (RCC_APB1_PRESCALAR_DIV << 8) | (RCC_APB2_PRESCALAR_DIV << 11));

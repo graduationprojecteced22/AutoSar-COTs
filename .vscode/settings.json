@@ -2,6 +2,12 @@
     "files.associations": {
         "*.dart": "dart",
         "stm32f103c8.h": "c",
-        "std_types.h": "c"
-    }
+        "std_types.h": "c",
+        "hall_config.h": "c",
+        "get_distance.h": "c",
+        "hall.h": "c",
+        "sonar.h": "c",
+        "hall_private.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
